@@ -5,7 +5,7 @@ import {
     ReactNode,
     ChangeEvent,
 } from "react";
-import { BigNumber, ethers } from "ethers";
+import { ethers } from "ethers";
 import { contractAbi, contractAddress } from "@utils/constants";
 
 declare global {

@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-between w-full p-4 md:justify-center gradient-bg-footer">
             <div className="flex flex-col items-center justify-between w-full my-4 sm:flex-row">
                 <div className="flex flex-[0.5] justify-center items-center">
-                <div className="w-[128px]">
-                    <Image src={logoImage} alt="logo" layout="responsive" />
-                </div>
+                    <div className="w-[128px]">
+                        <Image src={logoImage} alt="logo" layout="responsive" />
+                    </div>
                 </div>
                 <div className="flex flex-wrap items-center flex-1 w-full mt-5 justify-evenly sm:mt-0">
                     <Link href="/">
@@ -41,7 +41,9 @@ const Footer = () => {
             <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5" />
             <div className="sm:w-[90%] w-full justify-between items-center flex mt-3">
                 <p className="text-sm text-center text-white">@Vidura 2022</p>
-                <p className="text-sm text-center text-white">All rights reserved.</p>
+                <p className="text-sm text-center text-white">
+                    All rights reserved.
+                </p>
             </div>
         </div>
     );
